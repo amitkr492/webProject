@@ -1,0 +1,77 @@
+Create folder mean stack
+Create a server.js
+In same folder open cmd and do   node init
+In server.js add require express
+In cmd do  npm install express –save
+Now do npm start server.js
+Now do coding in server.js adding port
+After this do app.get method to check it is working fine
+
+Now add NODEMON for 
+Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development. Install it using npm.
+
+
+Adding morgan
+Morgan is used for logging request details
+Morgan is basically a logger, on any requests being made,it generates logs automatically.
+
+Add mongoose 
+And start mongo server 
+And write code for checking the connection whether working properly or not
+
+
+Video 2
+
+Create app folder _-> models-> user.js
+npm start server.js
+
+
+http-server  to run node server
+
+mongod  -- start the mongod server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adding bodyparser to read in parse the json data
+
+To decrypt the password to hash 
+
+Technique 1 (generate a salt and hash on separate function calls):
+bcrypt.genSalt(saltRounds, function(err, salt) {
+    bcrypt.hash(myPlaintextPassword, salt, function(err, hash) {
+        // Store hash in your password DB.
+    });
+});
+
+
+
+
+-----
+
+20851561
+
+
+
+
+
+
+
+
+
